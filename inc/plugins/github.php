@@ -16,8 +16,8 @@ function github_info()
 {
 // Kendimizi Tanıtalım
     return array(
-        "name" => "Mybb Github Mykod",
-        "description" => "Kodlama Konusunda Olan Mybb Forumlara Github Mykodunu Ekler",
+        "name" => "Mybb Gist Mykod",
+        "description" => "Kodlama Konusunda Olan Mybb Forumlara Gist Mykodunu Ekler",
         "website" => "http://www.emrekarakaya.com.tr",
         "author" => "Emre Karakaya",
         "authorsite" => "http://www.emrekarakaya.com.tr",
