@@ -35,6 +35,6 @@ function github_deactivate()
 }
 function github_run($message)
 {
-    return preg_replace('#\[gist\]https:\/\/gist\.github\.com\/(.*)\/([0-9]+)\[\/gist\]#i', "<script src=\"https://gist.github.com/$1/$2.js\"></script>", $message);
+    return preg_replace('#\[gist\]https:\/\/gist\.github\.com\/(.*)\/([a-zA-Z0-9]+)\[\/gist\]#i', "<script src=\"https://gist.github.com/$1/$2.js\"></script>", $message);
 }
 ?>
